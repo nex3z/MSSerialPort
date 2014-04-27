@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtHelp.Text" xml:space="preserve">
+    <value>1.打开串口
+    打开串口后点击MOTO或SEPURA按钮可直接针对手台进行设置，默认为Moto。可以点击“查看...”来在设备管理器中查看当前存在的端口。可以在发送区使用Ctrl+Enter快捷键直接发送。
+
+2.手台检测
+    点击“检测...”按钮可以对当前存在的所有串口进行检测，查找连接有手台的端口，显示手台的类型和号码。
+
+3.快捷指令
+    单击“添加”可把发送框内容添加到快捷指令，勾选“允许为指令添加注释后”，可以在指令后换行并以“//”开头添加注释，之后在指令列表选中指令后，状态栏中会显示对应注释，右键点击指令也可查看注释。左键单击指令可覆盖到发送框，左键双击指令可直接发送。    
+   “导入...”可以从外部.xml文件导入指令，“导出...”可将当前快捷指令列表导出为.xml文件。
+    勾选“自动保存”后，程序会在每次关闭时自动保存指令列表到程序所在目录下ATList.xml文件。当再次运行时，将会优先读取上一次保存的指令列表。取消勾选则会在关闭时删除ATList.xml文件。
+
+4.接收注释功能
+   接收区域注释选项卡下允许在接收区域追加注释，点击“注释”可直接将发送区内容作为注释追加。提供自由编辑的功能，但容易破坏原始数据，不建议使用。</value>
+  </data>
+  <data name="txtHistory.Text" xml:space="preserve">
+    <value>v2.6.1
+修正读取包含Ctrl-Z的指令文件时导致崩溃的问题。
+
+v2.6.0
+完善自动检测功能，现在可以检测MOTOROLA、SEPURA、EADS和HYTREA手台，并可设定显示的号码长度。
+
+v2.5.0
+现在指令列表保存为xml文件。
+
+v2.4.1
+在十六进制接收选项卡中的文本区域里选择文本，会高亮十六进制区域的对应内容。
+
+v2.4.0
+添加AT指令注释功能。
+
+v2.3.1
+添加手台检测功能对部分EADS手台的支持。
+
+v2.3.0
+添加十六进制接收数据对应的文本。
+
+v2.2.1
+修正SEPURA手台使用ATE0之后号码检测不正确的问题；
+提高检测功能对不同MOTO手台的兼容性。
+
+v2.2.0
+添加手台检测功能，可以自动检测当前连接的手台类型及号码。
+
+v2.1.0
+添加端口查看功能；
+在发送区可以使用Ctrl+Enter快捷键直接发送，接收区可以使用Ctrl+A快捷键全选内容。
+
+v2.0.1
+修正导入AT指令后自动保存路径错误的问题。
+
+v2.0.0
+优化代码，调整界面。
+
+v1.3.1
+更新说明文字，添加统一的默认保存文件名。
+
+v1.3.0
+调整界面，添加注释功能。
+
+v1.2.2
+完善串口打开错误信息，显示在状态栏，不再弹窗。添加指令导入错误信息。
+
+v1.2.1
+添加AT指令自动保存。此版本自动保存为ATList.txt文件。
+
+v1.2.0
+添加AT指令导入、导出，接收区域保存。
+
+v1.1.0 
+添加十六进制接收；
+修正单击快捷指令区域空白条目导致发送区清空的问题；
+修正双击快捷指令区域空白条目导致崩溃的问题。
+
+v1.0.0
+文本收发功能，快捷指令功能。
+
+mail: raven_9@163.com</value>
+  </data>
+</root>
